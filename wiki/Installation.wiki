@@ -1,3 +1,4 @@
+#labels Featured,Phase-Deploy
 AGrUM can be installed on Eclipse SDK 3.7 and TOPCASED 5.2 or later (http://www.topcased.org) using the update site archive at: http://agrum.eclipselabs.org.codespot.com/files/Agrum_update_site_0.1.0.zip
 
 To install it:
