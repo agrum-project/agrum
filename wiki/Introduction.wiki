@@ -1,4 +1,5 @@
 #labels Featured
+
 AGrUM (ACSL Generator from UML Model) is an Eclipse plug-in prototype which purpose is to offer a way to use formal methods without knowing them. It takes advantage of the modelling to automatically generate annotations on the code. These annotations can then be proved by static analysis tool to ensure the conformity of the code to the design model.
 
 =The modelling=
