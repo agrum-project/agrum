@@ -1,4 +1,4 @@
-[Introduction]
-[Installation]
-[Example]
-[Demonstration]
+* [Introduction]
+* [Installation]
+* [Example]
+* [Demonstration]
