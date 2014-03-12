@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.menus">
+         <menuContribution
+            allPopups="true"
+            locationURI="popup:org.eclipse.papyrus.modelexplorer.modelexplorer.popup?after=additions">
+            <command
+                  commandId="agrum.uimenu.commands.generateCommand"
+                  label="Generate ACSL contracts"
+                  style="push">
+                  <visibleWhen
+                  checkEnabled="true">
+               <with
+                     variable="activeMenuSelection">
+                  <iterate
+                        ifEmpty="false"
+                        operator="or">
+                     <instanceof
+                           value="org.eclipse.emf.facet.infra.browser.uicore.internal.model.ModelElementItem">
+                     </instanceof>
+                  </iterate>
+               </with>
+            </visibleWhen>
+            </command>
+      </menuContribution>
+   </extension>
+   <extension
+         point="org.eclipse.ui.commands">
+      <command
+            defaultHandler="org.eclipselabs.agrum.plugin.handler.GenerateHandler"
+            id="agrum.uimenu.commands.generateCommand"
+            name="Generate">
+      </command>
+   </extension>
+
+</plugin>

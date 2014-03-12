@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/org.eclipselabs.agrum.feature_0.1.0.jar" id="org.eclipselabs.agrum.feature" version="0.1.0">
+      <category name="agrum_feature"/>
+   </feature>
+   <category-def name="agrum_feature" label="AGrUM plug-in (Prototype version)"/>
+</site>
