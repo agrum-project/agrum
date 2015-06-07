@@ -1,0 +1,5 @@
+If Model Based Engineering (MBE) supports engineers from the specification to code generation, we want here to bridge the gap between models and static program analysis.
+
+Today, static analysis tools prove the source code correctness, by using mathematical methods, without executing the program. If these techniques are quite efficient and are used in critical context (for instance: aeronautic, nuclear, etc), there are quite difficult to understand and to use. Our aim is to provide the power of static analysis tools in a transparent way for the user.
+
+Following MBE spirit and using existing Eclipse-based technologies, we propose a plug-in to automatically generate proof properties in ACSL on C program from its UML State Machine based design. Our plug-in takes advantage of Eclipse-based tool as MDT Papyrus editor for the design modelling and Eclipse CDT to manage the C source code.
